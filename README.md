@@ -26,9 +26,19 @@ cd my-app
 ## 🧪 Code example
 
 ```php
-Route::get('/', function() {
-  return 'Hello world!'
-});
+// routes/web.php
+Route::get('/', HomeController::class);
+
+// app/Http/Controllers/HomeController.php
+class HomeController extends Controller
+{
+    public function __invoke()
+    {
+        return View::make('home', [
+            'news' => News::active()->latest(5),
+        ]);
+    }
+}
 ```
 
 ## 📚 Documentation
