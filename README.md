@@ -6,22 +6,24 @@
   <img src="https://img.shields.io/badge/docker-ready-2496ED?logo=docker&logoColor=white" alt="Docker ready">
 </p>
 
-**Imhotep** - лёгкий и быстрый PHP-фреймворк, который даёт вам готовое web-приложение и набор компонентов, чтобы запустить проект за считанные минуты - без тяжёлых зависимостей, сложной конфигурации и лишней магии. Только чистый контроль и скорость.
+**English** | [Русский](./README.ru.md)
 
-**Философия проекта:**
-- 🪶 **Лёгкость** — никаких лишних абстракций.
-- ⚡ **Скорость** — быстрый старт и минимальный оверхед.
-- 🧩 **Модульность** — используйте только то, что нужно.
-- 🐳 **Готовность к Docker** — окружение поднимается одной командой.
+**Imhotep** is a lightweight and fast PHP framework that gives you a ready-to-use web application and a set of components to launch a project in minutes — without heavy dependencies, complex configuration, or unnecessary magic. Just pure control and speed.
 
-## ⚡ Быстрый старт
+**Project philosophy:**
+- 🪶 **Lightweight** — no unnecessary abstractions.
+- ⚡ **Fast** — quick start and minimal overhead.
+- 🧩 **Modular** — use only what you need.
+- 🐳 **Docker-ready** — the environment spins up with a single command.
+
+## ⚡ Quick start
 
 ```bash
 composer create-project imhotep-php/imhotep my-app
 cd my-app
 ```
 
-## 🧪 Пример кода
+## 🧪 Code example
 
 ```php
 Route::get('/', function() {
@@ -29,16 +31,16 @@ Route::get('/', function() {
 });
 ```
 
-## 📚 Документация
+## 📚 Documentation
 
-Полное руководство, описание компонентов и разделы по безопасности и работе с базой данных — на официальном сайте:
+The complete guide, component descriptions, and sections on security and working with databases are available on the official website:
 👉 [imhotep.dev](https://imhotep.dev)
 
-## 🤝 Участие в разработке
+## 🤝 Contributing
 
-Мы рады любому вкладу: баг-репортам, идеям и pull request'ам.
-Правила и процесс участия описаны в [CONTRIBUTING.md](https://github.com/imhotep-php/framework?tab=contributing-ov-file).
+We welcome any contribution: bug reports, ideas, and pull requests.
+The rules and contribution process are described in [CONTRIBUTING.md](https://github.com/imhotep-php/framework?tab=contributing-ov-file).
 
-## ⭐ Поддержите проект
+## ⭐ Support the project
 
-Если Imhotep оказался вам интересен - поставьте звезду репозиториям экосистемы. Это помогает проекту развиваться.
+If you found Imhotep interesting, give a star to the ecosystem repositories. It helps the project grow.
